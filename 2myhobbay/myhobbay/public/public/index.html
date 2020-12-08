@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Friend hobbymates | myhobbay |</title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
+    
+    <link rel="shortcut icon" type="image/png" href="images/fav.png"/>
+	</head>
+  <body>
+		<header id="header">
+      <nav class="navbar navbar-default navbar-fixed-top menu">
+        <div class="container">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="./index.html">myHobbay</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-menu">
+              <li class="dropdown">
+                <a href="#">Home</a>
+                  
+              </li>
+              <li class="dropdown">
+                <a href="#"role="button" aria-haspopup="true" aria-expanded="false">Activities <span></span></a>
+                  
+              </li>
+            
+             <li class="dropdown"><a href="/">Contact</a></li>
+              
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav><nav class="navbar navbar-default navbar-fixed-top menu">
+        <div class="container">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="/index.html">myHobbay</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-menu">
+              <li class="dropdown">
+                <a href="#">Home</a>
+                  
+              </li>
+              <li class="dropdown">
+                <a href="#"role="button" aria-haspopup="true" aria-expanded="false">Activities <span></span></a>
+                  
+              </li>
+            
+              <li class="dropdown"><a href="/">Contact</a></li>
+               <span id="login_btn" class="login_check  pull-right "><a href="/login.html"  class="btn btn-primary">login</a></span>
+              <span id="logout_btn" class="login_check pull-right"><a href="#" class="btn btn-primary">logout</a></span>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+     <div class="container">
+      <div class="timeline">
+        <div class="timeline-cover">
+          <div class="timeline-nav-bar hidden-sm hidden-xs">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="profile-info">
+                  <span id="prof_img">
+                    
+                  </span>
+
+                  
+                  <h3 id="P_username">John Doe</h3>
+                  <p class="text-muted"></p>
+                  <label class="file-upload-btn" for="mediaFile">select image
+                  <input style="display:" type="file" name="" id="mediaFile">
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <ul class="list-inline profile-menu">
+                  <li><a href="#">Timeline</a></li>
+                  <li><a href="#" class="active">About</a></li>
+                  <li><a href="#">Album</a></li>
+                  <li><a href="#">Friends</a></li>
+                </ul>
+                <ul class="follow-me list-inline">
+                  <li>0 people folowing</li>
+                  <li><button class="btn-primary">Add Friend</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-mobile hidden-lg hidden-md">
+            <div class="profile-info">
+              <img src="images/users/user-1.jpg" alt="" class="img-responsive profile-photo" />
+              <h4>John Due</h4>
+              <p class="text-muted"></p>
+            </div>
+            <div class="mobile-menu">
+              <ul class="list-inline">
+                <li><a href="#">Timeline</a></li>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#">Album</a></li>
+                <li><a href="#">Friends</a></li>
+              </ul>
+              <button class="btn-primary">Add Friend</button>
+            </div>
+          </div>
+        </div>
+        <div id="page-contents">
+          <div class="row">
+            <div class="col-md-3">
+
+              <ul class="edit-menu">
+                <li><i class="icon ion-ios-information-outline"></i><a href="/index.html">Basic Information</a></li>
+                <li><i class="icon ion-ios-heart-outline"></i><a href="#">My Hobbies</a></li>
+                <li><i class="icon ion-ios-settings"></i><a href="#">Account Settings</a></li>
+                <li><i class="icon ion-ios-locked-outline"></i><a href="#">Change Password</a></li>
+              </ul>
+            </div>
+            <div class="col-md-7">
+              <div class="edit-profile-container">
+                
+                <div class="block-title">
+                  <h4 class="grey"><i class="icon icon-user"></i>Personal Details</h4>
+                  <div id="login_message">
+                  </div>
+                <p class="text-danger" id="editprof_error" ></p>
+                  <div class="line"></div>
+                  <p id="personal_details"></p>
+                  <div class="line"></div>
+                </div>
+                <div class="edit-block">
+                  <form name="education" method="post" id="userprofile" class="form-inline">
+                    <div class="row">
+                      <div class="form-group col-xs-12">
+                        <label for="F_username">username</label>
+                        <input id="F_username" disabled="disabled" class="form-control input-group-lg" type="text" name="username" title="username" placeholder="username" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-6">
+                        <label for="F_firstname">first name</label>
+                        <input id="F_firstname" class="form-control input-group-lg" type="text" name="firstname" title="first name" placeholder="first name" />
+                      </div>
+                      <div class="form-group col-xs-6">
+                        <label for="F_lastname" class="">last name</label>
+                        <input id="F_lastname" class="form-control input-group-lg" type="text" name="lastname" title="last name" placeholder="last name" />
+                      </div>
+                      <div class="form-group col-xs-6">
+                        <label for="F_country" class="">Country</label>
+                        <input id="F_country" class="form-control input-group-lg" type="text" name="country" title="last name" placeholder="your country" />
+                      </div>
+                                            <div class="form-group col-xs-6">
+                        <label for="F_city" class="">City</label>
+                        <input id="F_city" class="form-control input-group-lg" type="text" name="city" title="last name" placeholder="your city" />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-group col-xs-12">
+                        <label for="F_description">Description</label>
+                        <textarea id="F_description" name="description" class="form-control" placeholder="describe yourself" rows="4" cols="400"></textarea>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary">Save Changes</button>
+                  </form>
+                </div>
+                              </div>
+            </div>
+            <div class="col-md-2 static">
+              <div id="sticky-sidebar">
+                <h4 class="grey">recent login activity</h4>
+                <div id="log_activ">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer
+    ================================================= -->
+    <footer id="footer">
+      <div class="container">
+      	<div class="row">
+          <div class="footer-wrapper">
+            <div class="col-md-3 col-sm-3">
+              <
+            </div>
+            <div class="col-md-6 col-sm-2">
+              last login
+              <a href="" id="last_login"></a>
+            </div>
+            <div class="col-md-3 col-sm-3">
+              
+            </div>
+          </div>
+      	</div>
+      </div>
+      
+		</footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.appear.min.js"></script>
+    <script src="js/jquery.incremental-counter.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/api_fetch.js"></script>
+  </body>
+
+</html>
